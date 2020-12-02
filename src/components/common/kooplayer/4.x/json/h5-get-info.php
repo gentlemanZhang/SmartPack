@@ -1,0 +1,1 @@
+{"status":0,"data":"http://pl.koolearn.com/api/hls/m3u8_free?sign=eHrAsvvVbRCvLj0GKwMFGQQDgIw&timestamp=1488448709181&consumerType=1002001&encrypt=0&videoId=564&userId=-1&videoType=1"}

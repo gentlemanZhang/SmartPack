@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#set var="dest" value=""-->
+    <!--#include virtual="/framework/global.html"-->
+
+    <!--#if expr='"$QUERY_STRING" = "player\=m" ' -->
+        <link rel="stylesheet" href="http://static.neibu.koolearn.com/html5/skin/blue.monday-new/jplayer.blue.monday.css"/>
+        <link rel="stylesheet" href="http://static.neibu.koolearn.com/html5/skin/blue.monday-new/jplayer.koolearn.css"/>
+        <script src="http://static.neibu.koolearn.com/html5/js/jquery.jplayer.js"  ></script>
+        <script src="http://192.168.102.46:8081/player/svn/jplayer-new00/skin/blue.monday-new/jplayer.koolearn1.0.js" ></script>
+    <!--#else -->
+        <!--<link rel="stylesheet" href="<!- - #echo var='dest'/project/teach/to/css.css"/>-->
+        <!--引入soooner播放器类库- -->
+        <script type="text/javascript" src="http://static.neibu.koolearn.com/kooplayer/js/koo.player.js"></script>
+        <!-- 引入最新的配置文件，注意后面要加? -->
+        <script type="text/javascript" src="http://static.neibu.koolearn.com/kooplayer/js/lastest.player.config.js?v=1"></script>
+    <!--#endif -->
+    <script type="text/javascript">
+        seajs.use(['common/kooplayer/kooplayer'], function(kooplayer){
+            var playerInitData = {
+                //mobliePlayId:'XX',
+                //getMoblieInfoUrl:'../json/data.php',
+                //flash调用js时用到的唯一id
+                layId: '123',
+                //初始化的一些参数
+                //打点数据   //如果为字符串需要去请求数据，如果是JSON-array那就是数据
+                //注意：打点数据根据业务需求来生成，格式必须一致。时间，类型，内容，跳转地址
+                dadianData: [{
+                    time: 300, // 播放器时间，秒
+                    type: 'text', // 数据类型，image/text
+                    content: '新东方在线是由新东方集团全资创办官方网校,提供出国留学、考研培训',
+                    link: '' // 点击跳转地址
+                }, {
+                    time: 800, // 播放器时间，秒
+                    type: 'text', // 数据类型，image/text
+                    content: '测试数据222222一二三四五',
+                    link: '' // 点击跳转地址
+                }, {
+                    time: 1400, // 播放器时间，秒
+                    type: 'text', // 数据类型，image/text
+                    content: '测试数据33233',
+                    link: '' // 点击跳转地址
+                }],
+                // serverResponse : $(json)
+                serverResponse: {
+                    "playerData": {
+                        "bakTitles": "http://static.neibu.koolearn.com/assets/back.png",
+                        "pcTitles": "http://static.neibu.koolearn.com/assets/mp4_PT.mp4",
+                        "site": {
+                            "add": [{
+                                "host": "fms.neibu.koolearn.com",
+                                "name": "neiwang"
+                            }, {
+                                "host": "fms.neibu.koolearn.com",
+                                "name": "local"
+                            }],
+                            "defaultAdd": "192.168.100.52"
+                        },
+                        "speed": {
+                            "add": [{
+                                "add": "15",
+                                "host": "fms.neibu.koolearn.com",
+                                "name": "1.5"
+                            }, {
+                                "add": "13",
+                                "host": "fms.neibu.koolearn.com",
+                                "name": "1.3"
+                            }, {
+                                "add": "12",
+                                "host": "fms.neibu.koolearn.com",
+                                "name": "1.2"
+                            }],
+                            "defaultAdd": "10"
+                        }
+                    },
+                    "videoData": {
+                        "aid": 60324153,
+                        "key": "d6c9b07196af52cac54462ce0395bd7e",
+                        "rtmpUrl": "M0qTMD1VkZQ5lveXmwtUlsAWkwEYkdJVJDhVLHAanwQWMdpULHAa",
+                        "sid": 1002001,
+                        "time": 1428933285805
+                    }
+                },
+                //视频配置
+                videoType: "rtmp", //视频类型rtmp 还是http
+                volume: "0.8", //设置默认音量
+                autoPlay: "true", //视频自动播放
+                isEncrypt: "true", //url地址是否需要解密(如果是加密的话，必须为true)
+                playfromTime: "0", //设置播放时间
+                muted: "false", //静音控制
+                //控制条和视频区域参数
+                controlBarAutoHide: "true", //控制条是否自动隐藏
+                controlBarAutoHideTime: "4", //控制条自动隐藏的时间
+                controlBarType: "0", //控制条类型
+                controlBarHeight: "35", //控制条高度
+                videoWidth: '600', //视频区域宽度
+                videoHeight: '400', //视频区域高度
+                width: '100%',
+                height: '100%',
+                //广告配置
+                pluginTime: "0", //片头默认时间（如果是视频则取视频的时间，如果是图片取这个时间）
+                pluginBlankUrl: "http://www.baidu.com", //片头点击后的跳转地址
+                pluginAutoPlay: "true", //广告是否自动播放
+                //播放器跳转地址配置
+                errorBlankUrl: "http://www.koolearn.com", //播放器报错后用户的留言地址
+                hostTestBlankUrl: "http://www.koolearn.com", //自动切换站点后视频仍然播放不流畅，用户的留言地址
+                markImageUrl: "http://static.neibu.koolearn.com/assets/a.jpg", //用户唯一标识水印图片
+                //播放器高级配置
+                localData: "false", //是否保存用户上一次的播放时间(只有rtmp视频时应用)
+                hostData: "false", //是否保存用户上一次的切换站点(只有rtmp视频时应用)
+                subtitleShow: "false", //是否显示评论功能(只有rtmp视频时应用)
+                hostChangeShow: "true", //站点切换功能显示（只有rtmp视频时应用）
+
+                speedChangeShow: "true", //语速切换功能显示(只有rtmp视频时应用)
+
+                dotAuto: "true", //打点开关
+                playFrom: 10000,
+                poster: 'http://www.jplayer.org/video/poster/Big_Buck_Bunny_Trailer_480x270.png', //默认背景图
+                m4v: 'http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v' //HTTP 视频地址
+            };
+
+            $(function() {
+                window.videoPlayerObj = kooplayer.init( 'video', playerInitData );
+            });
+        });
+    </script>
+    <title>kooplayer demo</title>
+</head>
+<body>
+    <div id="video" style="margin:20px; width: 600px; height: 400px;"></div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,STHeiti,\534E\6587\7EC6\9ED1,SimHei,Helvetica,Arial,sans-serif}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:" ";content:none}table{border-collapse:collapse;border-spacing:0}body{font:12px/1.5 Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-weight:400}input{outline:0}.sans{font-family:Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,STHeiti,\534E\6587\7EC6\9ED1,SimHei,Helvetica,Arial,sans-serif}.smallSans{font-family:Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,STHeiti,\534E\6587\7EC6\9ED1,SimSun,Helvetica,Arial,sans-serif}.none{display:none}.bold{font-weight:700}.center{text-align:center}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}a{text-decoration:none}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',STHeiti,\534E\6587\7EC6\9ED1,SimHei,Helvetica,Arial,sans-serif;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: ' ';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font: 12px/1.5 Helvetica,Arial,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+input {
+	outline: 0;
+}
+
+/* .hidden {
+	float: left;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.hiddenText {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+} */
+
+.sans {
+	font-family: 'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',STHeiti,\534E\6587\7EC6\9ED1,SimHei,Helvetica,Arial,sans-serif;
+}
+
+.smallSans {
+	font-family: 'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',STHeiti,\534E\6587\7EC6\9ED1,SimSun,Helvetica,Arial,sans-serif;
+}
+
+.none {
+	display: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+/* table {
+	margin-left: 1px;
+} */
+
+/* table td,table th {
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+} */
+
+a {
+	text-decoration: none;
+}
+
+body{width:100%;font-family:Microsoft YaHei;min-width:1000px;background-color:#f8fafc}a,a:active,a:hover{text-decoration:none}.p-hide{display:none}.middle{width:1002px;margin:0 auto}.p-common-swiper{height:320px;width:1000px;margin:0 auto;overflow:hidden;position:relative}.p-common-swiper .swiper-container{height:320px;width:1000px;overflow:visible}.p-common-swiper .swiper-container .swiper-slide,.p-common-swiper .swiper-container .swiper-wrapper{height:320px;width:1000px}.p-common-swiper .swiper-container .swiper-slide .img{height:320px;width:1000px;overflow:hidden;margin:0 auto;position:relative}.p-common-swiper .swiper-container .swiper-slide .img>img{height:320px;width:1000px;position:absolute;left:0;top:0;z-index:0}.p-common-swiper .swiper-container .swiper-slide .img .zixun{width:219px;height:43px;background:url(http://images.koolearn.com/fe_upload/2019/8/2019-8-14-1565750979424.png) no-repeat 50%;background-size:100%;text-align:center;color:#fff;font-size:22px;position:absolute;left:238px;top:228px;z-index:1;line-height:41px}.p-common-swiper .swiper-container .swiper-slide .img .zixun.course-zaixian{left:477px}.p-common-swiper .swiper-pagination{width:100%;position:absolute;text-align:center;bottom:20px;height:10px}.p-common-swiper .swiper-pagination .swiper-pagination-bullet{opacity:.8;display:inline-block;border-radius:4px;background-color:#fff;margin:0 10px;width:9px;height:9px}.p-common-swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{width:12px;height:12px;opacity:1;background:#fff}.courseList{padding:25px 0 5px;background-color:#f8fafc;overflow:hidden;margin:0 auto}.courseList .course_nav{width:1000px;width:100%;height:36px;padding-bottom:30px}.courseList .course_nav ul{height:36px}.courseList .course_nav li{height:34px;display:inline-block;line-height:34px;width:108px;text-align:center;font-size:18px;color:#333;background-color:#fff;cursor:pointer;margin-right:40px;border-radius:17px;border:1px solid #d1d4de}.courseList .course_nav li.active{color:#fff;background:#00b8a4;border:1px solid rgba(0,0,0,0)}.courseList .course-tiyan{background:#f5f5f5;margin-bottom:44px;padding-top:20px}.courseList .course-tiyan .first_tiyan,.courseList .course-tiyan .first_ul,.courseList .course_list_all .first_tiyan,.courseList .course_list_all .first_ul{width:1000px;margin:0 auto;box-sizing:border-box}.courseList .course-tiyan .first_tiyan>div,.courseList .course-tiyan .first_ul>div,.courseList .course_list_all .first_tiyan>div,.courseList .course_list_all .first_ul>div{width:310px;height:410px;background-color:#fff;float:left;box-sizing:border-box;overflow:hidden;box-shadow:0 4px 12px 0 hsla(0,0%,41.2%,.12);transition:All .39s ease-in-out;-webkit-transition:All .39s ease-in-out;-moz-transition:All .39s ease-in-out;-o-transition:All .39s ease-in-out;-ms-transition:All .39s ease-in-out;border:1px solid #e5e5e5;position:relative;margin-bottom:35px}.courseList .course-tiyan .first_tiyan>div .bntA,.courseList .course-tiyan .first_ul>div .bntA,.courseList .course_list_all .first_tiyan>div .bntA,.courseList .course_list_all .first_ul>div .bntA{position:absolute;bottom:58px;right:12px;float:right;display:block;width:98px;height:30px;line-height:30px;border-radius:15px;background-color:#ff7c34;font-size:16px;color:#fff;z-index:999;cursor:pointer;text-align:center}.courseList .course-tiyan .first_tiyan>div .bntA:hover,.courseList .course-tiyan .first_tiyan>div .bntA:link,.courseList .course-tiyan .first_tiyan>div .bntA:visited,.courseList .course-tiyan .first_ul>div .bntA:hover,.courseList .course-tiyan .first_ul>div .bntA:link,.courseList .course-tiyan .first_ul>div .bntA:visited,.courseList .course_list_all .first_tiyan>div .bntA:hover,.courseList .course_list_all .first_tiyan>div .bntA:link,.courseList .course_list_all .first_tiyan>div .bntA:visited,.courseList .course_list_all .first_ul>div .bntA:hover,.courseList .course_list_all .first_ul>div .bntA:link,.courseList .course_list_all .first_ul>div .bntA:visited{text-decoration:none}.courseList .course-tiyan .first_tiyan>div .bntA.stop,.courseList .course-tiyan .first_ul>div .bntA.stop,.courseList .course_list_all .first_tiyan>div .bntA.stop,.courseList .course_list_all .first_ul>div .bntA.stop{background-color:#bebebe;cursor:default}.courseList .course-tiyan .first_tiyan>div:hover,.courseList .course-tiyan .first_ul>div:hover,.courseList .course_list_all .first_tiyan>div:hover,.courseList .course_list_all .first_ul>div:hover{transform:translateY(-10px);-webkit-transform:translateY(-10px);-moz-transform:translateY(-10px);-o-transform:translateY(-10px);-ms-transform:translateY(-10px)}.courseList .course-tiyan .first_tiyan>div.mid,.courseList .course-tiyan .first_ul>div.mid,.courseList .course_list_all .first_tiyan>div.mid,.courseList .course_list_all .first_ul>div.mid{margin-right:35px}.courseList .course-tiyan .first_tiyan>div>a,.courseList .course-tiyan .first_ul>div>a,.courseList .course_list_all .first_tiyan>div>a,.courseList .course_list_all .first_ul>div>a{width:100%;height:100%;box-sizing:border-box;padding-top:12px;display:block;position:relative}.courseList .course-tiyan .first_tiyan>div>a .course-img,.courseList .course-tiyan .first_ul>div>a .course-img,.courseList .course_list_all .first_tiyan>div>a .course-img,.courseList .course_list_all .first_ul>div>a .course-img{width:286px;position:relative;height:180px;border-radius:4px;overflow:hidden;margin:0 auto}.courseList .course-tiyan .first_tiyan>div>a .course-img .course_cover,.courseList .course-tiyan .first_ul>div>a .course-img .course_cover,.courseList .course_list_all .first_tiyan>div>a .course-img .course_cover,.courseList .course_list_all .first_ul>div>a .course-img .course_cover{display:block;width:286px;height:180px}.courseList .course-tiyan .first_tiyan>div>a .course-img .keshi,.courseList .course-tiyan .first_ul>div>a .course-img .keshi,.courseList .course_list_all .first_tiyan>div>a .course-img .keshi,.courseList .course_list_all .first_ul>div>a .course-img .keshi{position:absolute;left:0;width:262px;bottom:0;height:28px;background:rgba(0,0,0,.3);color:#fff;line-height:28px;padding:0 12px;font-size:14px}.courseList .course-tiyan .first_tiyan>div>a .course-img .keshi span,.courseList .course-tiyan .first_ul>div>a .course-img .keshi span,.courseList .course_list_all .first_tiyan>div>a .course-img .keshi span,.courseList .course_list_all .first_ul>div>a .course-img .keshi span{float:left}.courseList .course-tiyan .first_tiyan>div>a .course-img .keshi span:last-child,.courseList .course-tiyan .first_ul>div>a .course-img .keshi span:last-child,.courseList .course_list_all .first_tiyan>div>a .course-img .keshi span:last-child,.courseList .course_list_all .first_ul>div>a .course-img .keshi span:last-child{float:right}.courseList .course-tiyan .first_tiyan>div>a .title,.courseList .course-tiyan .first_ul>div>a .title,.courseList .course_list_all .first_tiyan>div>a .title,.courseList .course_list_all .first_ul>div>a .title{font-size:20px;color:#333;margin-top:8px;font-weight:700;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;padding:0 12px}.courseList .course-tiyan .first_tiyan>div>a .description,.courseList .course-tiyan .first_ul>div>a .description,.courseList .course_list_all .first_tiyan>div>a .description,.courseList .course_list_all .first_ul>div>a .description{font-size:14px;color:#484848;margin-top:3px;height:22px;padding:10px 12px;overflow:hidden}.courseList .course-tiyan .first_tiyan>div>a .description span,.courseList .course-tiyan .first_ul>div>a .description span,.courseList .course_list_all .first_tiyan>div>a .description span,.courseList .course_list_all .first_ul>div>a .description span{display:inline-block;background:#f5f5f5;border-radius:11px;height:22px;padding:0 10px;margin-right:20px;margin-bottom:20px}.courseList .course-tiyan .first_tiyan>div>a .description span:last-child,.courseList .course-tiyan .first_ul>div>a .description span:last-child,.courseList .course_list_all .first_tiyan>div>a .description span:last-child,.courseList .course_list_all .first_ul>div>a .description span:last-child{margin-right:0}.courseList .course-tiyan .first_tiyan>div>a .course-teacher,.courseList .course-tiyan .first_ul>div>a .course-teacher,.courseList .course_list_all .first_tiyan>div>a .course-teacher,.courseList .course_list_all .first_ul>div>a .course-teacher{padding-left:12px;padding-right:12px;font-size:14px;color:#747474;margin-top:3px;height:26px;line-height:26px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.courseList .course-tiyan .first_tiyan>div>a .presentPrice,.courseList .course-tiyan .first_ul>div>a .presentPrice,.courseList .course_list_all .first_tiyan>div>a .presentPrice,.courseList .course_list_all .first_ul>div>a .presentPrice{padding-left:12px;color:#fc1b16;font-size:18px;line-height:64px}.courseList .course-tiyan .first_tiyan>div>a .presentPrice em,.courseList .course-tiyan .first_ul>div>a .presentPrice em,.courseList .course_list_all .first_tiyan>div>a .presentPrice em,.courseList .course_list_all .first_ul>div>a .presentPrice em{color:#868d95;font-size:10px;margin-right:8px;text-decoration:line-through}.courseList .course-tiyan .first_tiyan>div>a .course-line,.courseList .course-tiyan .first_ul>div>a .course-line,.courseList .course_list_all .first_tiyan>div>a .course-line,.courseList .course_list_all .first_ul>div>a .course-line{border-top:1px solid #f1f4f6;height:1px}.courseList .course-tiyan .first_tiyan>div>a .course-num,.courseList .course-tiyan .first_ul>div>a .course-num,.courseList .course_list_all .first_tiyan>div>a .course-num,.courseList .course_list_all .first_ul>div>a .course-num{line-height:38px;height:38px;font-size:14px;color:#999;text-align:center;border-top:1px solid #f1f4f6}.courseList .course-tiyan .first_tiyan>div>a .bot,.courseList .course-tiyan .first_ul>div>a .bot,.courseList .course_list_all .first_tiyan>div>a .bot,.courseList .course_list_all .first_ul>div>a .bot{position:absolute;bottom:0;border-top:2px solid #eaedf3;height:35px;line-height:35px;width:100%;box-sizing:border-box;left:0;padding-left:22px;font-size:12px;color:#646464}.courseList .course-tiyan .first_tiyan>div>a .bot .count,.courseList .course-tiyan .first_ul>div>a .bot .count,.courseList .course_list_all .first_tiyan>div>a .bot .count,.courseList .course_list_all .first_ul>div>a .bot .count{font-weight:700}.courseList .course-tiyan .first_tiyan>div>a .bot .s1,.courseList .course-tiyan .first_ul>div>a .bot .s1,.courseList .course_list_all .first_tiyan>div>a .bot .s1,.courseList .course_list_all .first_ul>div>a .bot .s1{margin-right:20px}.courseList .course-tiyan .course-btns,.courseList .course_list_all .course-btns{width:1000px;position:relative;height:40px;margin:5px auto 0}.courseList .course-tiyan .course-btns .tiyan-btn,.courseList .course_list_all .course-btns .tiyan-btn{width:236px;height:40px;border-radius:20px;background:#fd6628;text-align:center;line-height:40px;color:#fff;font-size:20px;margin:0 0 0 382px;cursor:pointer}.courseList .course-tiyan .course-btns .to-course,.courseList .course_list_all .course-btns .to-course{position:absolute;right:250px;bottom:20px;line-height:40px;font-size:14px;color:#888;cursor:pointer}.courseList .course-tiyan .course-btns .to-course.center,.courseList .course_list_all .course-btns .to-course.center{right:460px}.main{min-width:1000px;margin:0 auto}.common-title{font-size:36px;font-weight:400;color:#19233c;line-height:48px;text-align:center}.common-subtitle{font-size:16px;font-weight:300;color:#8b93a6;margin-top:22px;text-align:center}.contact-btn{width:270px;height:62px;background:#4c84ff;box-shadow:0 6px 40px 0 rgba(59,109,178,.4);border-radius:2px;font-size:20px;line-height:62px;font-weight:400;color:#fefefe;display:block;margin:0 auto;border:none;outline:none;cursor:pointer}.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden}.clearfix{zoom:1}.common-tabs{width:500px;margin:55px auto 0}.common-tab{width:160px;font-size:16px;line-height:32px;font-weight:400;color:#19233c;padding:7px 0;text-align:center;float:left;cursor:pointer}.common-tab-active{border-bottom:2px solid #4c84ff;color:#4c84ff;font-size:18px}.common-line{width:1000px;margin:-1px auto 0;height:1px;background:#e4e6eb;-webkit-transform:scaleY(.5);-ms-transform:scaleY(.5);transform:scaleY(.5)}.timetable-bg{min-width:1000px;margin:0 auto;overflow:hidden;padding-top:310px;padding-bottom:60px;background:url(http://images.koolearn.com/fe_upload/2019/10/2019-10-18-1571372154235.png) no-repeat top;background-size:2000px 1643px}.part-tit{margin:0 auto;width:1000px;height:142px;background:url(http://images.koolearn.com/fe_upload/2019/10/2019-10-18-1571378110657.png) no-repeat 131px top;background-size:190px 142px}.part-tit h2{padding-top:50px;height:41px;font-size:40px;font-weight:500;color:#1f4380}.part-tit h2,.part-tit p{padding-left:340px;font-family:PingFang SC;line-height:24px}.part-tit p{padding-top:5px;height:18px;font-size:18px;font-weight:400;color:#727f96}.part-info{width:400px;margin:0 auto;padding-top:50px;cursor:pointer}.part-info>p>input{border:1px solid #b5c1d2;border-radius:28px;text-indent:30px;font-size:18px;font-weight:400}.part-info>p>button,.part-info>p>input{display:block;width:398px;height:55px;font-family:PingFang SC;outline:none}.part-info>p>button{background:-webkit-linear-gradient(left,#f36c12,#ff2d1d);background:linear-gradient(90deg,#f36c12,#ff2d1d);box-shadow:0 6px 13px 0 rgba(255,72,36,.44);border-radius:28px;line-height:55px;font-size:24px;font-weight:500;color:#fff;margin-top:30px;border:none}#uuidimg{width:0;height:0}.toast{width:300px;border-radius:8px;line-height:80px;background:rgba(20,50,89,.7);position:fixed;text-align:center;left:50%;top:50%;font-size:34px;margin-left:-150px;color:#fff;display:none}#ft a:hover{color:#ff8330!important}#ft .footer_copyright{width:100%;padding:20px 0 50px;font-size:12px}#ft .footer_copyright .footer_copyright-con{width:1190px;margin:0 auto;position:relative}#ft .footer_copyright .footer_copyright-con .footer_copyright-con-ul{line-height:50px}#ft .footer_copyright .footer_copyright-con .footer_copyright-con-ul li{display:inline-block;padding-right:20px}#ft .footer_copyright .footer_copyright-con .footer_copyright-con-ul li a{color:#545e64;text-decoration:none}#ft .footer_copyright .footer_copyright-con .footer_copyright-con-ul li a:hover{text-decoration:underline}#ft .footer_copyright .footer_copyright-con p{line-height:24px;color:#828282}#ft .footer_copyright .footer_copyright-con p a{color:#828282;text-decoration:none}#ft .footer_copyright .footer_copyright-con p a:hover{text-decoration:underline}#ft .footer_copyright .footer_copyright-con .footer_copyright-logo{position:absolute;bottom:0;right:0}#ft .footer_copyright .footer_copyright-con .footer_copyright-logo .footer_copyright__img{display:inline-block;padding:0 15px}#ft .footer_copyright .footer_copyright-con .footer_copyright-logo .footer_copyright__img.footer_copyright__credit{margin-right:50px}#ft .footer_copyright .footer_copyright-con .footer_copyright-logo .footer_copyright-logo__line{display:inline-block;width:0;height:35px;border-right:1px solid #e1e6ee}#ft .k12hezuo{display:none}@media screen and (max-width:1200px){#ft .footer_copyright .footer_copyright-con{width:1000px}#ft .footer_copyright .footer_copyright-con .footer_copyright-logo{position:absolute;bottom:20px;right:15px}}

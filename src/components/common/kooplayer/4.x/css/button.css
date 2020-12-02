@@ -1,0 +1,29 @@
+/* @grunt-build */
+.g-kooplayer-change-flash-button,
+.g-kooplayer-change-h5-button{
+    position: absolute;
+    left: -98px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    z-index: 200;
+    width: 115px;
+    height: 105px;
+    cursor: pointer;
+    transition: left .6s;
+}
+
+.g-kooplayer-change-flash-button{
+    background: url(//images.koolearn.com/fe_upload/2018/7/2018-7-18-1531906960462.png);
+}
+
+.g-kooplayer-change-h5-button{
+    background: url(//images.koolearn.com/fe_upload/2018/7/2018-7-18-1531911573172.png);
+}
+
+.g-kooplayer-change-flash-button:hover,
+.g-kooplayer-change-flash-button.hover,
+.g-kooplayer-change-h5-button.hover,
+.g-kooplayer-change-h5-button:hover{
+    left: 0;
+}

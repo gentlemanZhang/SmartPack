@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#set var="dest" value=""-->
+    <!--#include virtual="/framework/global.html"-->
+
+    <!--if m -->
+    <link rel="stylesheet" type="text/css" href="//static.koolearn.com/kooplayer-b2h5video/video-js.css">
+    <link rel="stylesheet" type="text/css" href="//static.koolearn.com/kooplayer-b2h5video/video-js-xdf/video-xdf.css">
+    <script type="text/javascript" src="//static.koolearn.com/kooplayer-b2h5video/video.dev.js"></script>
+    <script type="text/javascript" src="//static.koolearn.com/kooplayer-b2h5video/video-js-xdf/video-js-xdf.js"></script>
+    <script type="text/javascript" src="//static.koolearn.com/kooplayer-b2h5video/plugin/dataCollectionPlugin.js"></script>
+    <!-- else -->
+    <!--<link rel="stylesheet" href="<!- - #echo var='dest'/project/teach/to/css.css"/>-->
+    <!--引入soooner播放器类库- -->
+    <script type="text/javascript" src="http://static.trunk.koolearn.com/kooHlsPlayer_double/koo.player.js"></script>
+    <!--<script src="//static.koolearn.com/koolearnPlayer-flash/koo.player.js"></script>-->
+    <script type="text/javascript" src="http://static.trunk.koolearn.com/kooHlsPlayer_double/koo.hlsplayer.js"></script>
+    <!-- 引入最新的配置文件，注意后面要加? -->
+    <script type="text/javascript"
+            src="http://static.trunk.koolearn.com/kooHlsPlayer_double/lastest.player.config.js"></script>
+    <!--<script src="http://static.koolearn.com/koolearnPlayer-flash/lastest.syplayer.config.js"></script>-->
+    <script type="text/javascript"
+            src="http://static.trunk.koolearn.com/kooHlsPlayer_double/lastest.hlsplayer.config.js"></script>
+    <title>kooplayer demo</title>
+</head>
+<body>
+<div id="video" style="position: absolute; top:0;bottom:300px;left:0; right:100px;"></div>
+
+<button onclick="showRtmp();" type="button" style="z-index: 10;position: relative; font-size: 20px;">播放rtmp</button>
+<button onclick="showhls();" style="z-index: 10;position: relative; font-size: 20px;">播放hls</button>
+<button onclick="showH5();" style="z-index: 10;position: relative; font-size: 20px;">播放h5</button>
+<script type="text/javascript">
+
+    seajs.use( [ 'common/kooplayer/4.x/kooplayer' ], function( kooplayer ) {
+        var rtmpDefaultData = {
+            playFrom: 1000 * 20
+        };
+
+        var h5DefaultData = {
+            mobliePlayId: '20150716gk00503',
+            getMoblieInfoUrl: '/common/kooplayer/4.x/json/h5-get-info.php',
+        };
+
+        var hlsDefaultData = {};
+
+        var bshowhls = true;
+
+        function showRtmp() {
+            $.ajax( {
+                url: '/common/kooplayer/4.x/json/rtmp-data.php',
+                type: 'get',
+                dataType: 'json'
+            } ).done( function( data ) {
+                var player = kooplayer.init( 'video', $.extend( {}, rtmpDefaultData, data ) );
+            } );
+        }
+
+        function showH5() {
+            $.ajax( {
+                url: '/common/kooplayer/4.x/json/h5-data.php',
+                type: 'get',
+                dataType: 'json'
+            } ).done( function( data ) {
+                var player = kooplayer.init( 'video', $.extend( {}, h5DefaultData, data ) );
+            } );
+        }
+
+        function showhls() {
+            $.ajax( {
+                url: '/common/kooplayer/4.x/json/hls-data.php',
+                type: 'get',
+                dataType: 'json'
+            } ).done( function( data ) {
+                var player = kooplayer.init( 'video', $.extend( {}, hlsDefaultData, data ) );
+            } );
+
+        };
+
+        //bshowhls ? showhls() : showRtmp();
+        window.showRtmp = showRtmp;
+        window.showhls = showhls;
+        window.showH5 = showH5;
+    } );
+
+</script>
+</body>
+</html>

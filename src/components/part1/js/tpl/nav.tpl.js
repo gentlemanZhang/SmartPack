@@ -1,0 +1,1 @@
+define("project/zt/2019/0813gn-ky-gkk-pc/js/tpl/nav.tpl", [], '<% _.each(list, function(item, index) { %>\n    <% if(index == 0){%>\n        <li class="active"><%-item.name%></li>\n    <%} else{%>\n        <li><%-item.name%></li>\n    <%}%>\n<% }) %>  ');

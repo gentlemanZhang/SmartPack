@@ -1,0 +1,142 @@
+#ji-header {
+  background: #10B3B8;
+  height: 50px;
+  .home {
+    line-height: 50px;
+    a {
+      color: #fff !important;
+      font-size: 14px;
+
+    }
+  }
+  .user {
+    margin: 10px 0 0 0;
+    line-height: 30px;
+    a {
+      border: none;
+      background: transparent;
+      margin-top: 15px;
+      border-radius: 0;
+      border-right: 1px solid #fff;
+      padding: 0 13px 0 0;
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+
+  .sign {
+    margin: 3px 0 0 0;
+    a {
+      color: #fff;
+      border: none;
+      background: transparent;
+      margin-top: 15px;
+      border-radius: 0;
+      border-right: 1px solid #fff;
+      padding: 0;
+      font-size: 14px;
+      &:hover {
+        color: #10B3B8;
+        border: 1px solid #fff;
+        background: #fff;
+        margin-top: 8px;
+        border-radius: 15px;
+        padding: 7px 0;
+        margin-top: 8px;
+      }
+    }
+  }
+  .signout {
+    line-height: 50px;
+    a {
+      color: #fff !important;
+      font-size: 14px;
+    }
+  }
+  .log {
+    margin-top: 3px;
+    a {
+      color: #fff;
+      border: none;
+      background: transparent;
+      margin-top: 8px;
+      font-size: 14px;
+      &:hover {
+        color: #10B3B8;
+        border: 1px solid #fff;
+        background: #fff;
+        margin-top: 8px;
+      }
+    }
+  }
+  .tab21-right {
+    background:rgba(255,255,255,1);
+    box-shadow:0px 6px 30px 0px rgba(0,80,193,0.3);
+    color: #10B3B8;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 8px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+  }
+  .tab21-left {
+    border:1px solid rgba(255,255,255,1);
+    background: #10B3B8;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 8px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+
+  .logo {
+    height: 40px;
+    background-image: url("../public/i/common/logo.png");
+    background-size: 100% 100%;
+  }
+  .header-rc {
+    height: 50px;
+  }
+
+}
+.i-navigation-container {
+  background: #fff !important;
+  height: 50px !important;
+  .i-navigation-wrap {
+    height: 50px;
+    margin: 0 auto;
+  }
+  .i-navigation {
+    color: #19233C;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    &:hover {
+      color: #10B3B8;
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+  .i-navigation-active {
+    color: #10B3B8;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+  }
+  .i-navigation:after, .i-navigation-active:after {
+    background: #10B3B8;
+    height: 2px;
+    border-radius: 0;
+    width: 20px;
+    bottom: 8px;
+    margin-left: -10px;
+  }
+}
+
+
