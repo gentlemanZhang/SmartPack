@@ -25,7 +25,7 @@
 	"dependencies": {
 		"@babel/polyfill": "^7.6.0",
 		"dplayer": "^1.25.0",
-		"swiper": "^4.5.1"
+		"swiper": "^6.5.1"
 	},
 	"devDependencies": {
 		"ssh2-sftp-client": "^4.2.2",
